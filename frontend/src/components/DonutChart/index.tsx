@@ -4,8 +4,8 @@ const DonutChart = () => {
 
 
     const mockData = {
-        series: [477138, 499928, 444867, 220426, 473088],
-        labels: ['Clovis', 'Maria Clara', 'Alessandra', 'Michel', 'Eliane']
+        series: [477138, 499928, 444867, 320426, 473088],
+        labels: ['Clovis', 'Maria Clara', 'Alessandra', 'Michel', 'Eliane',]
     }
 
     const options = {
