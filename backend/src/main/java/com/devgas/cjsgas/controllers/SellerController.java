@@ -14,13 +14,13 @@ import com.devgas.cjsgas.service.SellerService;
 @RestController
 @RequestMapping(value = "/sellers")
 public class SellerController {
-
+	
 	@Autowired
 	private SellerService service;
 	
 	@GetMapping
-	public ResponseEntity<List<SellerDTO>> findAll(){
-		List<SellerDTO> list = service.FindAll();
+	public ResponseEntity<List<SellerDTO>> findAll() {
+		List<SellerDTO> list = service.findAll();
 		return ResponseEntity.ok(list);
 	}
 }

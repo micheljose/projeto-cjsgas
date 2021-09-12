@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 import com.devgas.cjsgas.entities.Seller;
 
-public class SellerDTO implements Serializable{
-	private static final long serialVersionUID = 1L;
+public class SellerDTO implements Serializable {
+private static final long serialVersionUID = 1L;
 	
 	private Long id;
 	private String name;
@@ -19,6 +19,8 @@ public class SellerDTO implements Serializable{
 		this.name = name;
 	}
 	
+	
+
 	public SellerDTO(Seller entity) {
 		id = entity.getId();
 		name = entity.getName();
@@ -41,5 +43,6 @@ public class SellerDTO implements Serializable{
 	}
 	
 	
-
+	
+	
 }
